@@ -2,7 +2,7 @@
 {
 	Properties
 	{
-		[PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+		_MainTex("Sprite Texture", 2D) = "white" {}
 		_Color("Tint", Color) = (1,1,1,1)
 
 		_CenterX("CenterX", float) = 0.5
@@ -72,7 +72,8 @@
 
 				return OUT;
 			}
-
+            
+            sampler2D _MainTex;
 			float _CenterX;
 			float _CenterY;
 			float _Radius;
@@ -84,7 +85,7 @@
 				{
 					discard;
 				}
-				return _Color;
+				return tex2D(_MainTex, IN.texcoord) * _Color;
 			}
 			ENDCG
 		}

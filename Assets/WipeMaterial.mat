@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9195127b7e2cb44ec8c381cb92ecdfb0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -28,12 +28,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Aspect: 1.3333
-    - _CenterX: 1169.4176
+    - _CenterX: 813.64386
     - _CenterY: 446.46927
     - _ColorMask: 15
     - _HoleCenterX: 144.08658
     - _HoleCenterY: 186.02885
-    - _Radius: -9.210234
+    - _Radius: -4.4333696
     - _Stencil: 0
     - _StencilComp: 8
     - _StencilOp: 0
@@ -41,5 +41,5 @@ Material:
     - _StencilWriteMask: 255
     - _UseUIAlphaClip: 0
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _Focus: {r: 1, g: 0, b: 0, a: 0}
